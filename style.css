@@ -1,56 +1,67 @@
-#TodayYangmei {
-    color: #FFFF5C;
-    background-color: #FF68D5;
-    font-size: 103px;
-    height: 120px;
-    text-shadow: 3px 3px 3px gray;
 
-}
-
-#img {
-    width: 150px;
-
-}
-
-.HXH {
-    font-size: 10px;
-}
-
-.l {
-    background-color: #FF0000;
-    height: 5px;
-
-}
-
-.clist {
-    background-color: yellow;
-    width: 800px;
-}
-
-#h114514 {
-    color: #FF0000;
-    font-size: 103px;
-    height: 30px;
-}
-
-#work(1) {
-    background-color: rgb(255, 255, 0);
-}
-
-#downline {
-    color: #6F6F6F;
-    text-align: center;
-    height: 80px;;
-}
-
-.workclasses {
-    color: #FF68FF;
-    font-size: 30px;
-    background-color: #63C9FF;
-    text-decoration: none;
-    height: 60px;
-}
 body
 {
-   background-color:#539CFF; 
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 0px;
+    font-family: Myfont;
+}
+#hh1
+{
+    text-align: center;
+}
+#free
+{
+    background-color: #FFBC00;
+    color: #000000;
+    border-radius: 10px;
+}
+@font-face {
+    font-family: 'MyFont'; /* 自定义字体名称 */
+    src:  url('style/font/font.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#m
+{
+   background-color:#FFBC00;
+   color:#000000;
+   border-radius: 55px;
+}
+#map
+{
+     text-align: center;
+}
+#rules
+{
+    text-indent: 50px;
+    background-color: #FFBC00;
+    color: rgb(0,0,0);
+    border-radius: 55px;
+    height: 30px;
+}
+.work
+{
+    background-color:#FFBC00;
+    color: #000000;
+    border-radius:15px;
+    text-indent: 8px;
+    font-weight: bold;
+}
+.ads
+{
+    background-color: #00419A;
+    width: 80%;
+}
+#ul
+{
+    text-align: center;
+}
+#down
+{
+     background-color: #3E3E3E;
+     border-radius: 10px;
+     height: 110px;
 }
